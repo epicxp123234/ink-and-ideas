@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="google-site-verification" content="BLN4ks4XOwlt9QfTt3HZCV_38fgcR1iSh_YXJYcMK2Q" />
+  <title>Ink and Ideas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <h1>Ink and Ideas</h1>
+</header>
+
+<nav class="sidebar" aria-label="Main navigation">
+  <ul>
+    <li><a href="share-your-expertise.html">Share Your Expertise</a></li>
+    <li><a href="personal-story.html">Tell a Personal Story</a></li>
+    <li><a href="ai.html">AI</a></li>
+    <li><a href="selfhelp.html">Self-Help</a></li>
+    <li><a href="productivity.html">Productivity</a></li>
+    <li><a href="how-to-become-rich.html">How to Become Rich</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="content-wrapper">
+    <section class="hero">
+      <h2>Welcome to Ink and Ideas</h2>
+      <p>Your go-to place for inspiration, knowledge, and life hacks — dive into blogs about Self-Help, AI, Productivity, and more.</p>
+      <button class="explore-btn" onclick="document.querySelector('.sidebar').classList.add('active'); document.querySelector('.menu-toggle').classList.add('active'); document.querySelector('.menu-toggle').setAttribute('aria-expanded', 'true');">Explore Now</button>
+    </section>
+
+    <section class="featured-topics">
+      <h3>Featured Topics</h3>
+      <div class="cards">
+        <a href="share-your-expertise.html" class="card">
+          <h4>Share Your Expertise</h4>
+          <p>Learn how to share your skills and knowledge effectively with the world.</p>
+        </a>
+        <a href="personal-story.html" class="card">
+          <h4>Tell a Personal Story</h4>
+          <p>Discover the power of personal stories to inspire and connect.</p>
+        </a>
+        <a href="ai.html" class="card">
+          <h4>AI</h4>
+          <p>Explore the latest trends and applications in artificial intelligence.</p>
+        </a>
+        <a href="selfhelp.html" class="card">
+          <h4>Self-Help</h4>
+          <p>Unlock techniques to improve your mindset, habits, and life.</p>
+        </a>
+        <a href="productivity.html" class="card">
+          <h4>Productivity</h4>
+          <p>Master strategies and tools to get more done in less time.</p>
+        </a>
+        <a href="how-to-become-rich.html" class="card">
+          <h4>How to Become Rich</h4>
+          <p>Step-by-step guides to building wealth and financial freedom.</p>
+        </a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Ink and Ideas. All rights reserved.
+</footer>
+
+<button id="backToTop" title="Back to Top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
